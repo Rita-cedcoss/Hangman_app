@@ -1,0 +1,67 @@
+#outer {
+  height: 100vh;
+  width: 100vw;
+  background-color:white;
+  display: flex;
+}
+#imgDisplay {
+  height: 100%;
+  width: 35%;
+  background-color: white;
+}
+#resultShow {
+  height: 100%;
+  width: 65%;
+}
+#selResult {
+  height: 10%;
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  justify-content: space-between;
+  padding: 2%;
+}
+#selResult > span {
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid white;
+}
+#alphabetContainer {
+  display: grid;
+  gap: 5px;
+  margin: 58px;
+  padding: 20px;
+  column-gap: 12px;
+  row-gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  background-color: #202020;
+}
+.grid {
+  background-color: rgb(246, 248, 248);
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 20px;
+  max-width: 100%;
+  min-height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  /* pointer-events: none; */
+  /* cursor: not-allowed; */
+}
+.divDisable{
+  pointer-events: none;
+  opacity: 0.4;
+}
+#resultDeclare {
+  color: black;
+  height: 50px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
